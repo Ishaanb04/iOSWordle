@@ -8,19 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		4C036B1727BF3D6B00C970A8 /* WordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C036B1627BF3D6B00C970A8 /* WordleApp.swift */; };
-		4C036B1927BF3D6B00C970A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C036B1827BF3D6B00C970A8 /* ContentView.swift */; };
+		4C036B1927BF3D6B00C970A8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C036B1827BF3D6B00C970A8 /* GameView.swift */; };
 		4C036B1E27BF3D6E00C970A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C036B1D27BF3D6E00C970A8 /* Preview Assets.xcassets */; };
-		4C036B2527BF3DBD00C970A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C036B2427BF3DBD00C970A8 /* Assets.xcassets */; };
 		4C036B2727BF3E0D00C970A8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C036B2627BF3E0D00C970A8 /* Launch Screen.storyboard */; };
+		4C7747D427D3B7E800248355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7747D327D3B7E800248355 /* Assets.xcassets */; };
+		4C7747D727D3B84600248355 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7747D627D3B84600248355 /* ColorExtension.swift */; };
+		4C7747DA27D3BA4F00248355 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7747D927D3BA4F00248355 /* Guess.swift */; };
+		4C7747DD27D3BBCD00248355 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7747DC27D3BBCD00248355 /* GuessView.swift */; };
+		4C7747E027D3BD7000248355 /* WordleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7747DF27D3BD7000248355 /* WordleDataModel.swift */; };
+		4C7747E227D3BE9A00248355 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7747E127D3BE9A00248355 /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C036B1327BF3D6B00C970A8 /* Wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C036B1627BF3D6B00C970A8 /* WordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleApp.swift; sourceTree = "<group>"; };
-		4C036B1827BF3D6B00C970A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C036B1827BF3D6B00C970A8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		4C036B1D27BF3D6E00C970A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4C036B2427BF3DBD00C970A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/Resources 2/Assets.xcassets"; sourceTree = "<group>"; };
 		4C036B2627BF3E0D00C970A8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4C7747D327D3B7E800248355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		4C7747D627D3B84600248355 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		4C7747D927D3BA4F00248355 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		4C7747DC27D3BBCD00248355 /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
+		4C7747DF27D3BD7000248355 /* WordleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleDataModel.swift; sourceTree = "<group>"; };
+		4C7747E127D3BE9A00248355 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +63,12 @@
 		4C036B1527BF3D6B00C970A8 /* Wordle */ = {
 			isa = PBXGroup;
 			children = (
+				4C7747DE27D3BD3F00248355 /* ViewModels */,
+				4C7747DB27D3BBBE00248355 /* Views */,
+				4C7747D827D3BA4200248355 /* Models */,
+				4C7747D527D3B82900248355 /* Extensions */,
 				4C036B1627BF3D6B00C970A8 /* WordleApp.swift */,
-				4C036B1827BF3D6B00C970A8 /* ContentView.swift */,
-				4C036B2427BF3DBD00C970A8 /* Assets.xcassets */,
+				4C7747D327D3B7E800248355 /* Assets.xcassets */,
 				4C036B2627BF3E0D00C970A8 /* Launch Screen.storyboard */,
 				4C036B1C27BF3D6E00C970A8 /* Preview Content */,
 			);
@@ -68,6 +81,40 @@
 				4C036B1D27BF3D6E00C970A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C7747D527D3B82900248355 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C7747D627D3B84600248355 /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4C7747D827D3BA4200248355 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C7747D927D3BA4F00248355 /* Guess.swift */,
+				4C7747E127D3BE9A00248355 /* Global.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C7747DB27D3BBBE00248355 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C036B1827BF3D6B00C970A8 /* GameView.swift */,
+				4C7747DC27D3BBCD00248355 /* GuessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C7747DE27D3BD3F00248355 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4C7747DF27D3BD7000248355 /* WordleDataModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C036B2727BF3E0D00C970A8 /* Launch Screen.storyboard in Resources */,
-				4C036B2527BF3DBD00C970A8 /* Assets.xcassets in Resources */,
+				4C7747D427D3B7E800248355 /* Assets.xcassets in Resources */,
 				4C036B1E27BF3D6E00C970A8 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C036B1927BF3D6B00C970A8 /* ContentView.swift in Sources */,
+				4C7747D727D3B84600248355 /* ColorExtension.swift in Sources */,
+				4C7747DD27D3BBCD00248355 /* GuessView.swift in Sources */,
+				4C7747DA27D3BA4F00248355 /* Guess.swift in Sources */,
+				4C036B1927BF3D6B00C970A8 /* GameView.swift in Sources */,
+				4C7747E027D3BD7000248355 /* WordleDataModel.swift in Sources */,
 				4C036B1727BF3D6B00C970A8 /* WordleApp.swift in Sources */,
+				4C7747E227D3BE9A00248355 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
